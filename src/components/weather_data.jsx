@@ -1,4 +1,3 @@
-import React from "react";
 import { FaCloudSunRain } from "react-icons/fa6";
 import { WiHumidity } from "react-icons/wi";
 import { GiWhirlwind } from "react-icons/gi";

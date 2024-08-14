@@ -1,5 +1,4 @@
-import React from "react";
-import Container from "./components/pages/Container";
+import Container from "./components/pages/container";
 
 function App() {
   return (

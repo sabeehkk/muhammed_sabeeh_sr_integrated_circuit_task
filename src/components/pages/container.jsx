@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import Header from "../header";
 import WeatherData from "../weather_data";
 import MainBody from "../main_body";
