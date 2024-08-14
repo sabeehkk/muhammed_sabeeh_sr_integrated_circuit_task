@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import Header from '../header';
-import WeatherData from '../weather_data';
-import MainBody from '../main_body';
-import Sidebar from '../sideBar';
+import React, { useState } from "react";
+import Header from "../header";
+import WeatherData from "../weather_data";
+import MainBody from "../main_body";
+import Sidebar from "../sideBar";
 
 const Container = () => {
   const [weatherData, setWeatherData] = useState(null);
@@ -10,9 +10,9 @@ const Container = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const search = async () => {
-    const api_key = '56f54a7afc223c83f785e49750741896';
+    const api_key = "56f54a7afc223c83f785e49750741896";
     const element = document.getElementsByClassName("cityInput");
-    let city = element[0].value.trim(); 
+    let city = element[0].value.trim();
     if (city === "") {
       city = "Bangalore";
     }
@@ -21,9 +21,9 @@ const Container = () => {
     let response = await fetch(url);
     let data = await response.json();
 
-    if (data.cod === 200) {  
-      setWeatherData(data);  
-      setShowWidget(true);   
+    if (data.cod === 200) {
+      setWeatherData(data);
+      setShowWidget(true);
     } else {
       alert("City not found!");
     }
@@ -43,6 +43,6 @@ const Container = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Container;
