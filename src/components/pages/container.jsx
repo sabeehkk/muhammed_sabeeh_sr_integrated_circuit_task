@@ -1,7 +1,7 @@
 import  { useState } from "react";
 import Header from "../header";
-import WeatherData from "../weather_data";
-import MainBody from "../main_body";
+import WeatherData from "../weatherData";
+import Hero from "../hero";
 import Sidebar from "../sideBar";
 
 const Container = () => {
@@ -39,7 +39,7 @@ const Container = () => {
         <Header search={search} toggleSidebar={toggleSidebar} />
         <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
         <WeatherData weatherData={weatherData} showWidget={showWidget} />
-        <MainBody />
+        <Hero />
       </div>
     </div>
   );

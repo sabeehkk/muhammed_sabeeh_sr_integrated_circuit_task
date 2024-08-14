@@ -1,5 +1,5 @@
 
-function MainBody() {
+function Hero() {
   return (
     <main className="pt-36 bg-[#fcd469] rounded-lg flex items-center">
       <div>
@@ -27,4 +27,4 @@ function MainBody() {
   );
 }
 
-export default MainBody;
+export default Hero;
