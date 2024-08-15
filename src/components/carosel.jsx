@@ -17,7 +17,6 @@ function Carousel() {
         <div className="carousel-item active">
           <div
             className="d-flex justify-content-between align-items-center p-5" style={{ background: 'linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 165, 0, 0))',height: '300px' }}>
-            {/* Left side - Text Quote */}
             <div className="col-md-6">
               <blockquote className="blockquote">
               <p className="mb-4 pl-64" style={{ fontSize: '1rem', color: '#555' }}>
@@ -34,17 +33,14 @@ function Carousel() {
                     </footer>
               </blockquote>
             </div>
-            {/* Right side - Image */}
             <div className="col-md-6 d-flex justify-content-end">
               <img className="img-fluid p-5" src={cream} alt="First slide"style={{ maxWidth: '80%' }}
               />
             </div>
           </div>
         </div>
-        {/* Second carousel item */}
         <div className="carousel-item active">
           <div className="d-flex justify-content-between align-items-center p-5"style={{ background: 'linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 165, 0, 0))', height: '300px' }}>
-            {/* Left side - Text Quote */}
             <div className="col-md-6">
               <blockquote className="blockquote">
                 <p className="mb-4 pl-64" style={{ fontSize: '1rem', color: '#555' }}>
@@ -62,7 +58,6 @@ function Carousel() {
                     </footer>
               </blockquote>
             </div>
-            {/* Right side - Image */}
             <div className="col-md-6 d-flex justify-content-end">
               <img
                 className="img-fluid p-5"
@@ -76,7 +71,6 @@ function Carousel() {
         {/* Third carousel item */}
         <div className="carousel-item active">
           <div className="d-flex justify-content-between align-items-center p-5"style={{ background: 'linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 165, 0, 0))', height: '300px' }}>
-            {/* Left side - Text Quote */}
             <div className="col-md-6">
               <blockquote className="blockquote">
               <p className="mb-4 pl-64" style={{ fontSize: '1rem', color: '#555' }}>
@@ -93,7 +87,6 @@ function Carousel() {
                     </footer>
               </blockquote>
             </div>
-            {/* Right side - Image */}
             <div className="col-md-6 d-flex justify-content-end">
               <img
                 className="img-fluid p-5"
