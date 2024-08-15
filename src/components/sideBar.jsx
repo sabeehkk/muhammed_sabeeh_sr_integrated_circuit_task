@@ -6,6 +6,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
     <div
       className={`fixed top-0 right-0 h-full w-64 bg-gray-800 text-white p-5 shadow-lg transform lg:hidden ${isOpen ? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out`}
+      style={{ zIndex: 50 }}
        >
       <div className=" flex justify-between items-center">
         <h1 className="text-2xl  font-bold  tracking-widest text-[#94a8d6]">
